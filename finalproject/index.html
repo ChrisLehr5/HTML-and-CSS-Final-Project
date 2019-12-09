@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frank Herbert: Dune</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dune novels" />
+    <meta name="keywords" content="Dune, Atreides, Harkonnen, Corrino, Arrakis, Freman, Bene Gesserit, Spice" />
+    <link rel="stylesheet" href="css/screen.css" media="all" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/870270da61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="media/Paul.JPG" style="max-width:100%;" alt="Paul launching Fremen army" />
+        <div id="main">
+            <h1>FRANK HERBERT : DUNE</h1>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Links</span>
+        </div>
+    </header>
+    <div class="hidden">
+        <div id="mySidenav" class="sidenav">
+            <p>
+                <img src="media/Dune.JPG" style="background-position:lower left; max-width:100%;" alt="Fremen in desert against moon background" />
+            </p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://www.youtube.com/watch?v=UZXB4aAIJcw">Youtube <i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/duneupdates/?hl=en">Instagram <i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/officialdune/">Facebook <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.amazon.com/Dune-The-Board-Game/dp/B07QT7RDDF">Amazon <i class="fab fa-amazon"></i></a>
+        </div>
+    </div>
+
+    <section class="row">
+        <nav class="col-3 col-m-3">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Frank_Herbert" target="_blank">Frank Herbert Wiki</a></li>
+                <li><a href="https://dune.fandom.com/wiki/The_Dune_Encyclopedia" target="_blank">The Dune Encyclopedia</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oI0Cd73lxcw" target="_blank">Dune Video Timeline</a></li>
+                <li><a href="https://www.dunenovels.com/" target="_blank">Dune Novels Website</a></li>
+            </ul>
+            <img src="media/Sandworm.JPG" style="max-width:100%;" alt="Fremen in desert summoning worm" />
+            <img src="media/Wind.JPG" style="max-width:100%;" alt="Woman walking desert winds" />
+        </nav>
+        <div class="col-6 col-m-9">
+            <p>The Dune Universe has been a source of fascination since it was first outlined in 1959.</p>
+            <p>The original series was written by Frank Herbert and was composed of the following titles:
+                <ul>
+                    <li>Dune</li>
+                    <li>Dune Messiah</li>
+                    <li>Children of Dune</li>
+                    <li>God Emperor of Dune</li>
+                    <li>Heretics of Dune</li>
+                    <li>Chapterhouse: Dune</li>
+                </ul>
+                The last book, Chapterhouse Dune, was not intended to be the last, but Frank Herberts death in 1986 left the series unresolved.
+            </p>
+            <p> Twenty years later his son Brian Herbert used his fathers notes to publish two sequels and finish off the series.
+                <ul>
+                    <li>Hunters of Dune</li>
+                    <li>Sandworms of Dune</li>
+                </ul>
+                Brian also expanded the universe of Dune through multiple prequel series, bringing more depth to the setting.
+            </p>
+            <details>
+                <summary>Main Factions</summary>
+                <details>
+                    <summary>House Atreides</summary>
+                    <ul>
+                        <li>Duke Leto</li>
+                        <li>Paul</li>
+                        <li>Lady Jessica</li>
+                        <li>Alia</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>House Harkonnen </summary>
+                    <ul>
+                        <li>Baron Harkonnen</li>
+                        <li>Glossu 'Beast' Rabban</li>
+                        <li>Feyd-Rautha Rabban</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Imperial House Corrino</summary>
+                    <ul>
+                        <li>Padishah Emperor Shaddam IV</li>
+                        <li>Count Hasimir Fenring</li>
+                        <li>Princess Irulan</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Fremen</summary>
+                    <ul>
+                        <li>Imperial Planetologist Liet-Kynes</li>
+                        <li>Chani</li>
+                        <li>Stilgar</li>
+                    </ul>
+                </details>
+            </details>
+            <p>The series has also been adapted to television multiple times:
+                <ul>
+                    <li>Dune Movie (1984)</li>
+                    <li>Frank Herbert's Dune</li>
+                    <li>Frank Herbert's Children of Dune</li>
+                    <li>Dune Movie (2020)</li>
+            </p>
+            </details>
+        </div>
+        <aside class="col-3 col-m-12">
+            <p>The Fremen and Sand Worms of Dune</p>
+            <img alt="fremen" src="media/Fremen.JPG" style="padding:10px; max-width:100%;" />
+            <p>The powerful Spacing Guild</p>
+            <img alt="Dune spacing guild navigator suspended in spice tank" src="media/Navigator.JPG" style="padding:10px; max-width:100%;" />
+            <p>Bene Gesserit Reverend Mother</p>
+            <img src="media/Witch.JPG" style="padding:10px; max-width:100%;" alt="Bene Gesserit Woman" />
+
+        </aside>
+
+    </section>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+    <footer>
+        <p>“It is impossible to live in the past, difficult to live in the present and a waste to live in the future.” ― Frank Herbert, Dune</p>
+        <p>&copy; Christine Largent 12/1/19</p>
+    </footer>
+</body>
+
+</html>
